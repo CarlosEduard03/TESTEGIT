@@ -22,10 +22,10 @@ var hospital;
         enfermeiro.prototype.getCoren = function () {
             return this._coren;
         };
-        enfermeiro.prototype.setCoren = function (coren) {
+        enfermeiro.prototype.setHospital = function (coren) {
             this._coren = coren;
         };
         return enfermeiro;
-    }(hospital.Pessoa));
+    }(Funcionario));
     hospital.enfermeiro = enfermeiro;
 })(hospital || (hospital = {}));
