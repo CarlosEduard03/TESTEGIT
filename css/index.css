@@ -1,0 +1,79 @@
+#a{
+    text-align:center; 
+}
+btn_novaLinha{
+  font: 14px Arial Black;
+  color: #fff;
+  display: block;
+  height: 40px;
+  margin: 15px auto;
+  background: #778899;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.7);
+  transition: all 0.3s;
+}
+
+#btn_novaLinha:hover{
+  background: #667788;
+}
+
+#btn_novaLinha:active{
+  background: #667788;
+}
+
+h2{
+  font: 22px Arial;
+  font-weight: bold;
+  color: #444;
+}
+
+#tabela-itens {
+    font-family: Arial;
+    border-collapse: collapse;
+
+}
+
+#tabela-itens th{
+  text-transform: uppercase;
+  color: #ccc;
+  background: #333;
+  text-align: center;
+  border: 2px solid #444;
+  padding: 8px;
+}
+
+#tabela-itens > th:nth-of-type(1){
+    text-align: left;
+}
+
+#tabela-itens td {
+  border: 2px solid #ddd;
+  padding: 0;
+  margin: 0;
+}
+
+#tabela-itens td > input{
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  color: #000;
+}
+
+#tabela-itens td > select{
+  border: none;
+  width: 355px;
+  font-family: Arial;
+  font-size: 16px;
+  outline: none;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
